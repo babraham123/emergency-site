@@ -1,10 +1,6 @@
-# Emergency Site Template
+# Ethiopian COVID-19 Emergency Site
 
-A boilerplate for emergency information websites. (WIP) ([Demo Site](https://emergency-site.dev))
-
-In case of emergency, many organizations need a quick way to publish critical information. Existing CMS websites are often unable to handle sudden spikes in traffic, and local infrastructure might be damaged, leaving people with poor mobile connections.
-
-This project aims to enable developers to quickly publish a simple website that can withstand large amounts of traffic and will work even under extreme conditions. It is built on the [rule of least power](https://en.wikipedia.org/wiki/Rule_of_least_power), using simple technologies for maximum resilience.
+A quick way to publish critical information about the Coronavirus / COVID-19 outbreak. Forked from [this repo](https://github.com/maxboeck/emergency-site). Can withstand large amounts of traffic and has off-line support.
 
 ## Features
 
