@@ -15,7 +15,7 @@ A quick way to publish critical information about the Coronavirus / COVID-19 out
 
 The easiest way to get started is by forking this repo and deploying it to Netlify. You can do that by clicking this button:  
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/emergency-site) 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/babraham123/emergency-site) 
 
 To customize the site, edit `src/data/meta.json` with your details, and replace the markdown files in `src/posts` with your content.
 
