@@ -19,7 +19,7 @@ The easiest way to get started is by forking this repo and deploying it to Netli
 
 Or use a Docker Github Action to run the 11ty build and deploy to Github Pages, adapted from [this blog](https://iamdanielmarino.com/posts/deploying-my-eleventy-site-to-github-pages/).
 
-To customize the site, edit `src/data/meta.json` with your details, and replace the markdown files in `src/posts` with your content.
+To customize the site, edit `src/data/meta.js` with your details, and replace the markdown files in `src/posts` with your content.
 
 ## Installation
 
