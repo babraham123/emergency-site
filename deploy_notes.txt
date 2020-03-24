@@ -7,3 +7,6 @@ Right now could support 80K users
 Netlify url: https://sleepy-chandrasekhar-5ec29d.netlify.com/ 
 Need to point DNS record for status.covid19.et to that endpoint to verify domain and enable https
 
+Github url: https://babraham123.github.io/emergency-site/
+Need to move repo to the main organization: https://github.com/Ethiopia-COVID19
+Need to set up a custom subdomain.
