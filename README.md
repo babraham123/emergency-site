@@ -17,6 +17,8 @@ The easiest way to get started is by forking this repo and deploying it to Netli
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/babraham123/emergency-site) 
 
+Or use a Docker Github Action to run the 11ty build and deploy to Github Pages, adapted from [this repo](https://github.com/TartanLlama/actions-eleventy/).
+
 To customize the site, edit `src/data/meta.json` with your details, and replace the markdown files in `src/posts` with your content.
 
 ## Installation

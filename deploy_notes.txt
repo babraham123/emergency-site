@@ -1,0 +1,9 @@
+100 GB/month bandwidth limit
+website is ~15KB
+worst case, user visits site 3x per day.
+Ethiopia population: 100M, internet users 20M
+Right now could support 80K users
+
+Netlify url: https://sleepy-chandrasekhar-5ec29d.netlify.com/ 
+Need to point DNS record for status.covid19.et to that endpoint to verify domain and enable https
+
