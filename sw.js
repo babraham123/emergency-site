@@ -14,9 +14,17 @@
 importScripts("workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "workbox-v4.3.1"});
 
+importScripts(
+  "/static/scripts/worker.js"
+);
+
 workbox.core.setCacheNameDetails({prefix: "emergency-site"});
 
-workbox.core.skipWaiting();
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
 
 workbox.core.clientsClaim();
 
@@ -28,15 +36,23 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "c59709d4aa6b183dec0b40b5a247fe11"
+    "revision": "0b78a5948292a98d698bdd6b020aa116"
   },
   {
-    "url": "posts/2020-03-19-about-this-template/index.html",
-    "revision": "03b54c5b8f9f6cd9ac2902c5da2e2df4"
+    "url": "posts/2020-03-19-about-this/index.html",
+    "revision": "6e6b05757649c31fa251d4e257d443ca"
+  },
+  {
+    "url": "posts/2020-03-20-getting-started/index.html",
+    "revision": "2940a57c7202bd54823c8e9b39aa4c5d"
   },
   {
     "url": "posts/2020-03-22-example-post/index.html",
-    "revision": "865dbeb51449e76f57db0cc2c221efe3"
+    "revision": "4cbf9b42aa96375575790b0cda5c2fa6"
+  },
+  {
+    "url": "static/scripts/offline.js",
+    "revision": "6e2d24083d272995a631b87584bb75f0"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

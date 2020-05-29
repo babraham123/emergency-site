@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://status.covid19.et/posts/2020-03-19-about-this-template/</loc>
+    <loc>http://status.ethiopia-covid19.com/posts/2020-03-19-about-this/</loc>
     <lastmod>2020-03-19</lastmod>
   </url>
   
   <url>
-    <loc>https://status.covid19.et/posts/2020-03-22-example-post/</loc>
+    <loc>http://status.ethiopia-covid19.com/posts/2020-03-20-getting-started/</loc>
+    <lastmod>2020-03-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://status.ethiopia-covid19.com/posts/2020-03-22-example-post/</loc>
     <lastmod>2020-03-22</lastmod>
   </url>
   
   <url>
-    <loc>https://status.covid19.et/</loc>
-    <lastmod>2020-03-24</lastmod>
+    <loc>http://status.ethiopia-covid19.com/</loc>
+    <lastmod>2020-05-29</lastmod>
   </url>
   
   <url>
-    <loc>https://status.covid19.et/site.webmanifest</loc>
-    <lastmod>2020-03-24</lastmod>
+    <loc>http://status.ethiopia-covid19.com/site.webmanifest</loc>
+    <lastmod>2020-05-29</lastmod>
   </url>
   
   <url>
-    <loc>https://status.covid19.et/assets/css/style.css</loc>
-    <lastmod>2020-03-24</lastmod>
+    <loc>http://status.ethiopia-covid19.com/static/styles/style.css</loc>
+    <lastmod>2020-05-29</lastmod>
   </url>
 </urlset>
